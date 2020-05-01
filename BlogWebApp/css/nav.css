@@ -1,0 +1,29 @@
+.header h1 {
+    color: greenyellow;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .menu a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    border-bottom: 2px solid chartreuse;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.main .menu a:hover {
+    background-color: forestgreen;
+}
+
+.main .menu a:active {
+    background-color: darkmagenta;
+}

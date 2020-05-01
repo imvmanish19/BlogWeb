@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-row: 100px auto 100px;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "b b b b b b b b b b b b"
+    "f f f f f f f f f f f f";
+}
+
+.header {
+    grid-area: h;
+    background-color: crimson;
+}
+
+.menu {
+    grid-area: m;
+    background-color: dodgerblue;
+}
+
+.footer {
+    grid-area: f;
+    background-color: maroon;
+}
+.posts {
+    grid-area: b;
+    background-color: lightgreen;
+}
+
+.floor {
+    background-color: darkmagenta;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.posts h2,h3,h4 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    color: deeppink;
+}
+
+.floor a {
+    color: deeppink;
+    display: block;
+}
+
+u {
+    color: darkorange;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer img {
+    height: 200px;
+    width: 200px;
+}
+
+#model {
+    padding: 20px;
+}
+
+#model li {
+    list-style: none;
+    line-height: 1.5;
+    font-size: 24px;
+}
